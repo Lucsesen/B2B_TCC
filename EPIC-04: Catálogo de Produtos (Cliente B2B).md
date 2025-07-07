@@ -6,7 +6,7 @@
 | **Persona Principal**  | Cliente B2B (Usuário autenticado) |
 
 ### Descrição
-Este épico disponibiliza uma **vitrine simples** para que clientes logados consultem produtos em estoque, preços e prazos de entrega antes de montar o pedido. É intencionalmente menos complexo: foca em leitura de dados, sem regras de reserva de estoque ou workflow de aprovação.
+Este épico disponibiliza uma **vitrine simples** para que clientes logados consultem produtos em estoque, preços e prazos de entrega antes de montar o pedido.
 
 ### Escopo e Funcionalidades Principais
 - **Autenticação** básica (e-mail + senha ou link mágico)  
