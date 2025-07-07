@@ -24,7 +24,6 @@ Focado na **automação do reabastecimento**. Gere Ordens de Compra (OC) quando 
 ### 🚀 Requisitos Não-Funcionais Chave
 - **Confiabilidade**: falha de integração deve ter retry automático  
 - **Auditabilidade**: trilha completa de quem gerou e recebeu cada OC  
-- **Integração Externa**: API segue contrato JSON REST v1
 
 ### ✅ Critérios de Aceite
 1. Sistema gera OC sempre que estoque ≤ ponto de reposição e registra no log.  
