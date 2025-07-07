@@ -23,7 +23,7 @@ Este épico disponibiliza uma **vitrine simples** para que clientes logados cons
 | HU03 | Visualização de Detalhes de Produto                       |
 
 ### 🚀 Requisitos Não-Funcionais Chave
-- **Performance**: pesquisa retorna < 2 s em até 5 000 SKUs  
+- **Performance**: pesquisa retorna < 2 s em até 1 000 SKUs  
 - **Responsividade**: UI utilizável em celulares (layout de cards)  
 - **Acessibilidade**: contraste adequado e navegação por teclado  
 
