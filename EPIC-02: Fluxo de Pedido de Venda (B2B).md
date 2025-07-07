@@ -24,7 +24,6 @@ Abrange **criação, aprovação e acompanhamento de pedidos**. Conecta estoque 
 
 ### 🚀 Requisitos Não-Funcionais Chave
 - **Transacionalidade**: reserva de estoque só confirma após aprovação  
-- **Escalabilidade**: suportar picos de 100 pedidos simultâneos  
 - **Segurança**: acesso restrito por papel (Vendedor não vê margem)
 
 ### ✅ Critérios de Aceite
