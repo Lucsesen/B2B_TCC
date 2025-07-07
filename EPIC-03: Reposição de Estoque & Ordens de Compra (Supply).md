@@ -11,7 +11,6 @@ Focado na **automação do reabastecimento**. Gere Ordens de Compra (OC) quando 
 ### Escopo e Funcionalidades Principais
 - Monitoramento contínuo de níveis de estoque e ponto de reposição  
 - **Geração automática** ou manual de OC para fornecedor preferencial  
-- **Integração REST/Webhook** para enviar OC e receber status  
 - Tela de **Recebimento**: conferência de quantidades e atualização de saldo  
 - Relatório de **Lead Time** e rupturas por produto
 
