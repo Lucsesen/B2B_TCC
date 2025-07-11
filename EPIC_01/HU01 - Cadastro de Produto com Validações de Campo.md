@@ -18,3 +18,18 @@ O cadastro de produto é o ponto de entrada para todas as demais operações de 
 3. **Unicidade do SKU**: tentativa de salvar SKU já existente gera mensagem de erro clara.  
 4. **Confirmação**: após salvar, sistema exibe notificação de sucesso e produto aparece na lista.  
 5. **Persistência**: dados permanecem após recarregar a página ou relogar.
+
+
+![Mockup HU01](/HU01.png)
+
+### Fluxo e interações
+
+| Passo | Comportamento | Referência |
+|-------|---------------|------------|
+| 1 | **Botão “Salvar” começa desabilitado** enquanto existir ao menos um campo obrigatório vazio ou inválido. | :contentReference[oaicite:16]{index=16} |
+| 2 | Validações em tempo real: números positivos, máscara “R$ 0,00” para preço. | :contentReference[oaicite:17]{index=17} |
+| 3 | Tentativa de salvar com **SKU duplicado** exibe erro inline e mantém foco no campo. | :contentReference[oaicite:18]{index=18} |
+| 4 | Quando tudo OK, botão habilita; ao clicar, mostra **toast “Produto cadastrado com sucesso”** e limpa o formulário. | :contentReference[oaicite:19]{index=19} |
+| 5 | Dados persistem após recarregar ou relogar, garantindo integridade do catálogo. | :contentReference[oaicite:20]{index=20} |
+
+---
