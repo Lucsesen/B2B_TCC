@@ -28,10 +28,16 @@ O cadastro de produto é o ponto de entrada para todas as demais operações de 
 
 | Passo | Comportamento | Referência |
 |-------|---------------|------------|
-| 1 | **Botão “Salvar” começa desabilitado** enquanto existir ao menos um campo obrigatório vazio ou inválido. | :contentReference[oaicite:16]{index=16} |
-| 2 | Validações em tempo real: números positivos, máscara “R$ 0,00” para preço. | :contentReference[oaicite:17]{index=17} |
-| 3 | Tentativa de salvar com **SKU duplicado** exibe erro inline e mantém foco no campo. | :contentReference[oaicite:18]{index=18} |
-| 4 | Quando tudo OK, botão habilita; ao clicar, mostra **toast “Produto cadastrado com sucesso”** e limpa o formulário. | :contentReference[oaicite:19]{index=19} |
-| 5 | Dados persistem após recarregar ou relogar, garantindo integridade do catálogo. | :contentReference[oaicite:20]{index=20} |
+| 1 | **Botão “Salvar” começa desabilitado** enquanto existir ao menos um campo obrigatório vazio ou inválido. | Ver Critério ①[^1] |
+| 2 | Validações em tempo real: números positivos, máscara “R$ 0,00” para preço. | Critério ②[^2] |
+| 3 | Tentativa de salvar com **SKU duplicado** exibe erro inline e mantém foco no campo. | Critério ③[^3] |
+| 4 | Quando tudo OK, botão habilita; ao clicar, mostra **toast “Produto cadastrado com sucesso”** e limpa o formulário. | Critério ④[^4] |
+| 5 | Dados persistem após recarregar ou relogar, garantindo integridade do catálogo. | Critério ⑤[^5] |
+
+[^1]: **Campos Obrigatórios** — HU01, Critério de Aceite 1  
+[^2]: **Validação em Tempo Real** — HU01, Critério de Aceite 2  
+[^3]: **Unicidade do SKU** — HU01, Critério de Aceite 3  
+[^4]: **Confirmação** — HU01, Critério de Aceite 4  
+[^5]: **Persistência** — HU01, Critério de Aceite 5
 
 ---
