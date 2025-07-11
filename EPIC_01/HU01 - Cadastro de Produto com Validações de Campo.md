@@ -20,7 +20,7 @@ O cadastro de produto é o ponto de entrada para todas as demais operações de 
 5. **Persistência**: dados permanecem após recarregar a página ou relogar.
 
 
-![Mockup HU01](/HU01.png)
+![Mockup HU01](./HU01.png)
 
 ### Fluxo e interações
 
