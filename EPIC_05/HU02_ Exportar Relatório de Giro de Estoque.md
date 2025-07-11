@@ -1,15 +1,18 @@
-| **O Quê (What)** | **Quem (Who)** | **Por Que (Why)** |
-|---|---|---|
-| Exportar relatório de giro de estoque | Gerente Operacional | Para analisar detalhadamente a movimentação dos produtos e tomar decisões sobre compras e promoções. |
+### HU02 — Exportar Relatório de Giro de Estoque
 
-**HU02: Exportar Relatório de Giro de Estoque**
+| **3 Ws** | **Conteúdo** |
+|----------|--------------|
+| **WHO? (Quem)** | **Gerente Operacional** |
+| **WHAT? (O Quê)** | **Exportar um relatório de giro de estoque em formato CSV/Excel** |
+| **WHY? (Por Quê)** | **Para analisar detalhadamente a movimentação dos produtos e tomar decisões sobre compras e promoções.** |
 
-*   **Como um** Gerente Operacional,
-*   **Eu quero** exportar um relatório de giro de estoque em formato CSV/Excel,
-*   **Para que** eu possa analisar detalhadamente a movimentação dos produtos e tomar decisões sobre compras e promoções.
+**História de Usuário Completa**
+> Como **Gerente Operacional**, quero **exportar um relatório de giro de estoque em formato CSV/Excel**, para que **eu possa analisar detalhadamente a movimentação dos produtos e tomar decisões sobre compras e promoções**.
 
-**Critérios de Aceite:**
+#### Descrição
+O relatório de giro de estoque fornece dados cruciais para a gestão de inventário, permitindo identificar produtos com alta ou baixa rotatividade. A exportação em formatos comuns facilita a análise em ferramentas externas e a colaboração com outras equipes.
 
+#### ✅ Critérios de Aceite
 1.  Deve haver uma opção para exportar o relatório de giro de estoque.
 2.  O relatório deve ser gerado em formato CSV ou Excel.
 3.  O arquivo exportado deve conter colunas relevantes como SKU, nome do produto, quantidade vendida, quantidade comprada, saldo atual e taxa de giro.
