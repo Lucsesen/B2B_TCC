@@ -1,3 +1,7 @@
+| **O Quê (What)** | **Quem (Who)** | **Por Que (Why)** |
+|---|---|---|
+| Definir ponto de reposição por SKU | Almoxarife | Para que o sistema possa alertar ou gerar uma ordem de compra automaticamente quando o estoque atingir esse nível. |
+
 **HU01: Definir Ponto de Reposição por SKU**
 
 *   **Como um** almoxarife,

@@ -1,3 +1,7 @@
+| **O Quê (What)** | **Quem (Who)** | **Por Que (Why)** |
+|---|---|---|
+| Visualizar um dashboard resumido | Gerente Operacional | Para ter uma visão rápida e clara da saúde da operação. |
+
 **HU01: Visualizar Dashboard Resumido**
 
 *   **Como um** Gerente Operacional,
@@ -11,4 +15,6 @@
 3.  Deve exibir um gráfico de barras mostrando a quantidade de pedidos por status (ex: Novo, Em Aprovação, Aprovado, Faturado, Cancelado).
 4.  Deve listar os top 5 SKUs com menor saldo, incluindo o nome do produto e a quantidade em estoque.
 5.  Todas as métricas devem ser baseadas nos dados mais recentes do sistema.
+
+
 

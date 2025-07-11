@@ -1,3 +1,7 @@
+| **O Quê (What)** | **Quem (Who)** | **Por Que (Why)** |
+|---|---|---|
+| Fazer login no sistema e acessar o catálogo | Cliente B2B | Para acessar o catálogo de produtos e realizar pedidos. |
+
 **HU01: Login do Cliente e acesso ao Catálogo**
 
 *   **Como um** cliente B2B,
@@ -9,4 +13,6 @@
 1.  O cliente deve ser redirecionado para a página inicial do catálogo após um login bem-sucedido.
 2.  Em caso de credenciais inválidas, uma mensagem de erro clara deve ser exibida.
 3.  O link mágico deve autenticar o usuário e redirecioná-lo para o catálogo.
+
+
 
