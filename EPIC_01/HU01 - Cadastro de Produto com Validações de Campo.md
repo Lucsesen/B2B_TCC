@@ -21,7 +21,8 @@ O cadastro de produto é o ponto de entrada para todas as demais operações de 
 
 
 
-!Mockup HU01
+![Mockup HU01](./HU1.png)
+
 
 ### Fluxo e interações
 
