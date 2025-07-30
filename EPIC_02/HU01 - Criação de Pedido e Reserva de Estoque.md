@@ -19,3 +19,5 @@ O formulário de pedido deve ser simples, permitindo busca de produtos, exibiç�
 4. **Resumo do Pedido**: total de itens, impostos, frete e valor final antes de salvar.  
 5. **Reserva**: ao salvar, quantidade solicitada é reservada por até 24 h (ou até aprovação) e exibida no log de movimento.  
 6. **Confirmação**: notificação de sucesso + e-mail ao cliente com número do pedido.
+
+![Mockup HU01](./HU1.png)
