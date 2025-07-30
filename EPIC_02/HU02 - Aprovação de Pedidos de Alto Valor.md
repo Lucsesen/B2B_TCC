@@ -20,7 +20,7 @@ Pedidos que atingem certos limiares entram automaticamente em estágio *Em Aprov
 5. **Registro**: decisão, usuário e data/hora gravados no histórico do pedido.  
 6. **Feedback ao Vendedor**: status atualizado em tempo real no Kanban e e-mail automático.
 
-7. ![Mockup HU01](./HU02.png)
+![Mockup HU01](./HU02.png)
 
 
 ## Fluxo e interações
