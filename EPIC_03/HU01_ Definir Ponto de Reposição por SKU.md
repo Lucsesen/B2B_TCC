@@ -23,9 +23,12 @@ O ponto de reposição é crucial para a gestão eficiente do estoque, garantind
 
 | Passo | Comportamento | Referência |
 |---|---|---|
-| 1 | O usuário acessa a tela de "Detalhes do Produto" para visualizar ou editar informações de um produto existente. | Imagem HU01.png |
-| 2 | O usuário pode preencher ou editar os campos "Nome do Produto", "Descrição", "Estoque Atual" e "Ponto de Reposição". | Imagem HU01.png |
-| 3 | Após preencher ou editar os dados, o usuário clica no botão "Salvar" para registrar as alterações. | Imagem HU01.png |
-| 4 | Se o usuário desejar cancelar as alterações e retornar à tela anterior, ele clica no botão "Cancelar". | Imagem HU01.png |
-| 5 | O sistema valida os dados inseridos, garantindo que os campos obrigatórios sejam preenchidos e que os valores estejam no formato correto. | Critérios de Aceite (implícito) |
-| 6 | Após o salvamento bem-sucedido, o sistema exibe uma mensagem de confirmação e atualiza a lista de produtos. | Critérios de Aceite (implícito) |
+| 1 | O almoxarife acessa a tela de detalhes do produto. | Imagem HU1.png |
+| 2 | O almoxarife localiza o campo numérico "Ponto de Reposição". | Critério ①, Imagem HU1.png |
+| 3 | O almoxarife insere um valor numérico maior que zero no campo "Ponto de Reposição". | Critério ② |
+| 4 | O almoxarife clica no botão "Salvar" para registrar o ponto de reposição. | Imagem HU1.png |
+| 5 | O sistema armazena a informação do ponto de reposição e a exibe na lista de produtos. | Critério ③ |
+
+1. Na tela de detalhes do produto, deve haver um campo numérico para "Ponto de Reposição".
+2. O valor deve ser maior que zero.
+3. Ao salvar, o sistema armazena a informação e a exibe na lista de produtos.
