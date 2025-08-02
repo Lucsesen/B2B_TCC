@@ -21,3 +21,21 @@ Cada pedido percorre status pré-definidos: Novo → Em Aprovação → Aprovado
 6. **Pesquisa/Filtro**: campo para buscar pedidos por número ou cliente; filtros por período e status aplicados em tempo real.
 
 ![Mockup HU01](./HU3.png)
+
+## Fluxo e interações
+
+| Passo | Comportamento | Referência |
+|---|---|---|
+| 1 | O vendedor acessa o painel Kanban, onde os pedidos são exibidos como cartões em colunas de status (Novo, Em Aprovação, Aprovado, Faturado, Cancelado), ordenados por data de criação. | Critério ① |
+| 2 | O vendedor pode mover os cartões dos pedidos entre os estados, respeitando as permissões de transição (ex: de "Aprovado" para "Faturado"). | Critério ② |
+| 3 | Ao atualizar o status de um pedido, o sistema grava a mudança, o usuário responsável e o timestamp no histórico do pedido. | Critério ③ |
+| 4 | Ao clicar em um cartão de pedido, um modal é aberto exibindo detalhes como itens, valores e uma linha do tempo com o histórico de status. | Critério ④ |
+| 5 | Quando o status do pedido muda para "Faturado", o sistema gera um PDF da Nota Fiscal ou uma confirmação e envia um e-mail automático ao cliente. | Critério ⑤ |
+| 6 | O vendedor pode utilizar os campos de pesquisa e filtro para buscar pedidos por número ou cliente, e aplicar filtros por período e status em tempo real. | Critério ⑥ |
+
+1. Kanban — HU03, Critério de Aceite 1 ↩
+2. Permissões — HU03, Critério de Aceite 2 ↩
+3. Atualização — HU03, Critério de Aceite 3 ↩
+4. Detalhe do Pedido — HU03, Critério de Aceite 4 ↩
+5. Notificações — HU03, Critério de Aceite 5 ↩
+6. Pesquisa/Filtro — HU03, Critério de Aceite 6 ↩
