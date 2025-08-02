@@ -18,5 +18,9 @@ A geração automática de ordens de compra otimiza o processo de reabasteciment
 3.  A OC deve ser criada com o status "Pendente de Aprovação".
 4.  Um e-mail de notificação deve ser enviado para o comprador responsável.
 
+![Mockup HU01](./HU2.png)
+
+
+
 
 
