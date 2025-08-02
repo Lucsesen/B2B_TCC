@@ -19,3 +19,5 @@ Cada pedido percorre status pré-definidos: Novo → Em Aprovação → Aprovado
 4. **Detalhe do Pedido**: clique no cartão abre modal com itens, valores e timeline de status.  
 5. **Notificações**: mudança para “Faturado” gera PDF da NF ou confirmação e envia e-mail ao cliente.  
 6. **Pesquisa/Filtro**: campo para buscar pedidos por número ou cliente; filtros por período e status aplicados em tempo real.
+
+![Mockup HU01](./HU3.png)
