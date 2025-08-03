@@ -18,5 +18,21 @@ O registro preciso do recebimento de mercadorias é fundamental para manter o co
 3.  Após a confirmação, o saldo do estoque dos produtos recebidos deve ser atualizado.
 4.  O status da OC deve ser atualizado para "Recebida Parcialmente" ou "Recebida Totalmente".
 
+![Mockup HU01](./HU3.png)
 
+## Fluxo e interações
 
+| Passo | Comportamento | Referência |
+|---|---|---|
+| 1 | O almoxarife acessa a tela de "Receber Mercadorias" para uma Ordem de Compra específica. | Imagem HU3.png |
+| 2 | O sistema exibe os itens da OC com as quantidades pedidas, recebidas e a receber. | Imagem HU3.png |
+| 3 | O almoxarife insere a quantidade recebida para cada item nos campos correspondentes. | Critério ②, Imagem HU3.png |
+| 4 | Após inserir as quantidades, o almoxarife clica no botão "Confirmar Recebimento". | Imagem HU3.png |
+| 5 | O sistema atualiza o saldo do estoque dos produtos recebidos. | Critério ③ |
+| 6 | O status da OC é atualizado para "Recebida Parcialmente" ou "Recebida Totalmente", dependendo das quantidades recebidas. | Critério ④ |
+| 7 | O almoxarife pode clicar em "Atualizar Status do Pedido" para forçar a atualização do status da OC. | Imagem HU3.png |
+
+1. Na tela da Ordem de Compra, deve haver um botão "Receber Mercadoria".
+2. Ao clicar, o sistema deve exibir os itens da OC e permitir a inserção da quantidade recebida para cada um.
+3. Após a confirmação, o saldo do estoque dos produtos recebidos deve ser atualizado.
+4. O status da OC deve ser atualizado para "Recebida Parcialmente" ou "Recebida Totalmente".
