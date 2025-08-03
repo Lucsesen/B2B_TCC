@@ -19,5 +19,22 @@ O dashboard resumido oferece uma visão consolidada das principais métricas ope
 4.  Deve listar os top 5 SKUs com menor saldo, incluindo o nome do produto e a quantidade em estoque.
 5.  Todas as métricas devem ser baseadas nos dados mais recentes do sistema.
 
+![Mockup HU01](./HU1.png)
+
+## Fluxo e interações
+
+| Passo | Comportamento | Referência |
+|---|---|---|
+| 1 | O Gerente Operacional acessa a página inicial do back-office, onde o dashboard resumido é exibido. | Critério ①, Imagem HU1.png |
+| 2 | O dashboard apresenta o "Valor Total do Estoque" atualizado (ex: R$ 1.250.000). | Critério ②, Imagem HU1.png |
+| 3 | Um gráfico de barras exibe a quantidade de pedidos por status (Pendente, Enviado, Entregue, Cancelado). | Critério ③, Imagem HU1.png |
+| 4 | Uma lista dos "5 SKUs com Menor Saldo" é apresentada, incluindo SKU, Nome do Produto e Saldo (ex: SKU123 - Produto A - 10). | Critério ④, Imagem HU1.png |
+| 5 | Todas as métricas exibidas no dashboard são baseadas nos dados mais recentes do sistema. | Critério ⑤ |
+
+1. O dashboard deve ser exibido na página inicial do back-office. ↩
+2. Deve apresentar o valor total do estoque atualizado. ↩
+3. Deve exibir um gráfico de barras mostrando a quantidade de pedidos por status (ex: Novo, Em Aprovação, Aprovado, Faturado, Cancelado). ↩
+4. Deve listar os top 5 SKUs com menor saldo, incluindo o nome do produto e a quantidade em estoque. ↩
+5. Todas as métricas devem ser baseadas nos dados mais recentes do sistema. ↩
 
 
