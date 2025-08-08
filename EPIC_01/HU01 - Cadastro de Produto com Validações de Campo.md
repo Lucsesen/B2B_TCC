@@ -42,15 +42,16 @@ O cadastro de produto é o ponto de entrada para todas as demais operações de 
 
 ## 📋 Formulário de Avaliação – HU01
 
-| N | Requisito / Critério de aceite | Pergunta de avaliação | Não atendido (0) | Atendido parcialmente (0.5) | Atendido (1) |
+| Nº  | Requisito / Critério de aceite | Pergunta de avaliação | Não atendido (0) | Atendido parcialmente (0.5) | Atendido (1) |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Campos obrigatórios antes de salvar | O botão “Salvar” ficou desabilitado até todos os campos obrigatórios estarem válidos? | FALSE | FALSE | FALSE |
-| 2 | Validação em tempo real | Campos numéricos aceitaram apenas números positivos e o preço exibiu a máscara “R$ 0,00” corretamente? | FALSE | FALSE | FALSE |
-| 3 | SKU único | Ao tentar salvar um SKU duplicado, o sistema exibiu mensagem clara e manteve o foco no campo? | FALSE | FALSE | FALSE |
-| 4 | Confirmação | Após salvar com sucesso, foi exibido “Produto cadastrado com sucesso” e o formulário foi limpo? | FALSE | FALSE | FALSE |
-| 5 | Persistência | Os dados permaneceram após recarregar a página ou relogar? | FALSE | FALSE | FALSE |
+| 1 | Campos obrigatórios antes de salvar | O botão “Salvar” ficou desabilitado até todos os campos obrigatórios estarem válidos? | ✅ | ⬜ | ⬜ |
+| 2 | Validação em tempo real | Campos numéricos aceitaram apenas números positivos e o preço exibiu a máscara “R$ 0,00” corretamente? | ⬜ | ✅ | ⬜ |
+| 3 | SKU único | Ao tentar salvar um SKU duplicado, o sistema exibiu mensagem clara e manteve o foco no campo? | ⬜ | ✅ | ⬜ |
+| 4 | Confirmação | Após salvar com sucesso, foi exibido “Produto cadastrado com sucesso” e o formulário foi limpo? | ⬜ | ✅ | ⬜ |
+| 5 | Persistência | Os dados permaneceram após recarregar a página ou relogar? | ⬜ | ✅ | ⬜ |
 
-Nota: 
+Cálculo da nota HU01:  4 
+
 
 
 
