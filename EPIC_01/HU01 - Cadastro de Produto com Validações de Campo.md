@@ -40,6 +40,8 @@ O cadastro de produto é o ponto de entrada para todas as demais operações de 
 [^4]: **Confirmação** — HU01, Critério de Aceite 4  
 [^5]: **Persistência** — HU01, Critério de Aceite 5
 
+## 📋 Formulário de Avaliação – HU01
+
 | N | Requisito / Critério de aceite | Pergunta de avaliação | Não atendido (0) | Atendido parcialmente (0.5) | Atendido (1) |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Campos obrigatórios antes de salvar | O botão “Salvar” ficou desabilitado até todos os campos obrigatórios estarem válidos? | FALSE | FALSE | FALSE |
@@ -49,6 +51,7 @@ O cadastro de produto é o ponto de entrada para todas as demais operações de 
 | 5 | Persistência | Os dados permaneceram após recarregar a página ou relogar? | FALSE | FALSE | FALSE |
 |  |  |  |  |  |  |
 |  | Nota: |  |  |  |  |
+
 
 
 ---
