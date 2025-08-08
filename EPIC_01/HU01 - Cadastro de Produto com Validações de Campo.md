@@ -50,7 +50,7 @@ O cadastro de produto é o ponto de entrada para todas as demais operações de 
 | 4 | Confirmação | Após salvar com sucesso, foi exibido “Produto cadastrado com sucesso” e o formulário foi limpo? |  |  | X |
 | 5 | Persistência | Os dados permaneceram após recarregar a página ou relogar? |  | X |  |
 
-Cálculo da nota HU01: | 7 |
+**Cálculo da nota HU01:  7**
 
 
 
