@@ -40,4 +40,17 @@ O cadastro de produto é o ponto de entrada para todas as demais operações de 
 [^4]: **Confirmação** — HU01, Critério de Aceite 4  
 [^5]: **Persistência** — HU01, Critério de Aceite 5
 
+## 📋 Formulário de Avaliação – HU01
+
+| Nº | Requisito / Critério de Aceite | Pergunta de Avaliação | Pontuação (0 / 0.5 / 1) |
+|----|--------------------------------|-----------------------|-------------------------|
+| 1  | Campos obrigatórios antes de salvar | O botão “Salvar” ficou desabilitado até todos os campos obrigatórios estarem válidos? | ___ |
+| 2  | Validação em tempo real | Campos numéricos aceitaram apenas números positivos e o preço exibiu a máscara “R$ 0,00” corretamente? | ___ |
+| 3  | SKU único | Ao tentar salvar um SKU duplicado, o sistema exibiu mensagem clara e manteve o foco no campo? | ___ |
+| 4  | Confirmação | Após salvar com sucesso, foi exibido “Produto cadastrado com sucesso” e o formulário foi limpo? | ___ |
+| 5  | Persistência | Os dados permaneceram após recarregar a página ou relogar? | ___ |
+
+**Cálculo da nota HU01:**  
+> Nota = (Soma dos pontos ÷ 5) × 10
+
 ---
