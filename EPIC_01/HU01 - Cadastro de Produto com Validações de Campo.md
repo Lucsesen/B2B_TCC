@@ -49,8 +49,8 @@ O cadastro de produto é o ponto de entrada para todas as demais operações de 
 | 3 | SKU único | Ao tentar salvar um SKU duplicado, o sistema exibiu mensagem clara e manteve o foco no campo? | FALSE | FALSE | FALSE |
 | 4 | Confirmação | Após salvar com sucesso, foi exibido “Produto cadastrado com sucesso” e o formulário foi limpo? | FALSE | FALSE | FALSE |
 | 5 | Persistência | Os dados permaneceram após recarregar a página ou relogar? | FALSE | FALSE | FALSE |
-|  |  |  |  |  |  |
-|  | Nota: |  |  |  |  |
+
+Nota: 
 
 
 
